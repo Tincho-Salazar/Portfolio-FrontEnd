@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos Css-->
+    <link href="Css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="Css/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Css/Icons/font/bootstrap-icons.css">
+    <link href="Css/style.css" rel="stylesheet">
+
+    <!-- <link  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script> -->
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar navbar-success fixed-top bg-success" id="mainNav">
+        <div class="container" style="min-width: 100vh ;">
+            <a class="navbar-brand me-auto" href="https://argentinaprograma.inti.gob.ar/" target="_blank">
+                <img src="img/argentinaprograma.png" class="bg-logo d-block mx-auto" alt="Logo Argentina Programa">
+            </a>
+            <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <svg height="24px" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                    stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25 h16.5" />
+                </svg></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#banner">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#about">Acerca de..</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#educacion">Educacion</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#hardsoft">Hard & Soft Skills</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#proyectos">Proyectos</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item"><a href="https://www.facebook.com/" target="_blank"><i
+                                class="bi bi-facebook text-white" style="font-size:1em"></i></a></li>
+                    <li class="list-group-item"><a href="https://twitter.com/?lang=es" target="_blank"><i
+                                class="bi bi-twitter text-white" style="font-size:1em"></i></a></li>
+                    <li class="list-group-item"><a href="https://www.instagram.com/" target="_blank"><i
+                                class="bi bi-instagram text-white" style="font-size:1em"></i></a></li>
+                    <li class="list-group-item">
+                        <!-- Boton que envia el Login -->
+                        <a href="login.html"><i class="bi bi-person-lock text-white" style="font-size:1em"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Seccion Banner -->
+    <section class="banner" id="banner">
+        <h3 class="text-warning text-center intro">Hola !!!,bienvenido a mi mundo!</h3>
+        <h1 class="text-warning text-center intro">Soy Olivia Salazar Calogeropulos</h1>
+        <h2 class="text-warning text-center intro">Desarrolladora Full Stack Jr.</h2>
+    </section>
+    <!-- Seccion presentacion -->
+    <seccion class="presentacion mt-5 p-3" id="about">
+        <h3 class="mt-5 p-5 text-center">Conozcamonos mejor...</h1>
+            <div class="container">
+                <div class="row  text-center">
+                    <div class="col-3">
+                        <img src="img/team/Oli.jpg" alt="foto-perfil" class="rounded-circle img-fluid perfil">
+                    </div>
+                    <div class="col-9">
+                        <h4 class=" pt-5">Desde que comence mi viaje,hace algun tiempo, he adquirido
+                            muchas cosas en el camino, colaboradores excepcionales, he tenido la oportunidad de trabajar
+                            con gente muy talentosa colaborando en los diseños en varios proyectos, ahora como full
+                            stack
+                            Developer Jr.
+                            me encuentro tranquilamente confiada para afrontar nuevos retos.
+                            Sin mas que agregar, espero poder ayudarte en tu nuevo proyecto...
+                        </h4>
+                    </div>
+                </div>
+            </div>
+    </seccion>
+    <!-- Seccion Experiencia -->
+    <section class="section mt-5 p-5" id="experiencia">
+        <h1 class="text-center mt-5">Experiencia</h1>
+        <h3 class="text-center">Aqui algunos de los conocimientos que he adquirido</h3>
+        <br>
+        <div class="container text-center mx-5">
+            <div class="row align-items-center">
+                <div class="col m-2 p-2">
+                    <img src="img/educacion/todos.png" class="mx-auto d-block text-center responsiva" alt="logo html">
+                    <span class="mx-auto d-block text-center">
+                        <p class="mt-5">A lo largo de esta aventura, realize algunos proyectos que me han permitido
+                            aplicar y mejorar mis conocimientos de Html,Css pasando por los framework de Bootstrap y
+                            Angular.
+                            Usando tecnologias de base de datos como Mysql, Firebase.
+                            los lenguajes de Java y Javascript me han acompañado en el Back End como en el From End de
+                            todos mis proyectos</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion Educacion -->
+    <section class="section mt-5 p-5" id="educacion">
+        <h1 class="text-center mt-5">Educacion</h1>
+        <h3 class="text-center">Cursos y Capacitaciones obtenidas</h3>
+        <br>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-5 p-2 border border-5 bg-success">
+                    <div id="MiCarousel" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#MiCarousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#MiCarousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#MiCarousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#MiCarousel" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/educacion/Certificado-argentina.png" class="d-block w-100" alt="cert1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/educacion/Certificado-diseño Grafico.png" class="d-block w-100"
+                                    alt="cert2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/educacion/Certificado-excelencia.png" class="d-block w-100" alt="cert3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/educacion/Certificado-liderazgo.png" class="d-block w-100" alt="cert4">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#MiCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#MiCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p>Estos son algunos cursos realizados
+                    <ul>
+                        <li>#SeProgramar de Argentina programa</li>
+                        <li>Curso de Diseño Grafico</li>
+                        <li>Innovacion de metodos de investigacion</li>
+                        <li>liderazgo profesional</li>
+                        <li>Curso de GitHub Freecodecamp</li>
+                        <li>Fundamentos de diseño Web Freecodecamp</li>
+                    </ul>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Seccion hard & soft skills -->
+    <section class="section mt-5 p-5" id="hardsoft">
+        <h1 class="text-center mt-5">Hard & Soft Skills</h1>
+        <h3 class="text-center">Habilidades Obtenidas</h4>
+        <br>
+        <div class="porcentaje">
+            <div class="container hardsoft">
+                <div class="card">
+                    <div class="box">
+                        <div class="porcent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70" />
+                                <circle cx="70" cy="70" r="70" />
+                            </svg>
+                            <div class="number">
+                                <h2>85<span>%</span></h2>
+                            </div>
+                            <h3 class="text">Html</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <div class="porcent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70" />
+                                <circle cx="70" cy="70" r="70" />
+                            </svg>
+                            <div class="number">
+                                <h2>75<span>%</span></h2>
+                            </div>
+                            <h3 class="text">Css</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <div class="porcent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70" />
+                                <circle cx="70" cy="70" r="70" />
+                            </svg>
+                            <div class="number">
+                                <h2>80<span>%</span></h2>
+                            </div>
+                            <h3 class="text">JavaScript</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <div class="porcent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70" />
+                                <circle cx="70" cy="70" r="70" />
+                            </svg>
+                            <div class="number">
+                                <h2>60<span>%</span></h2>
+                            </div>
+                            <h3 class="text">Angular</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <div class="porcent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70" />
+                                <circle cx="70" cy="70" r="70" />
+                            </svg>
+                            <div class="number">
+                                <h2>75<span>%</span></h2>
+                            </div>
+                            <h3 class="text">Java</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <div class="porcent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70" />
+                                <circle cx="70" cy="70" r="70" />
+                            </svg>
+                            <div class="number">
+                                <h2>100<span>%</span></h2>
+                            </div>
+                            <h3 class="text">Pseint</h3>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="box">
+                        <div class="porcent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70" />
+                                <circle cx="70" cy="70" r="70" />
+                            </svg>
+                            <div class="number">
+                                <h2>65<span>%</span></h2>
+                            </div>
+                            <h3 class="text">Compañerismo</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <div class="porcent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70" />
+                                <circle cx="70" cy="70" r="70" />
+                            </svg>
+                            <div class="number">
+                                <h2>65<span>%</span></h2>
+                            </div>
+                            <h3 class="text">Comunicacion</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!-- Seccion proyectos -->
+    <section class="section p-5" id="proyectos">
+        <h1 class="text-center mt-5">Proyectos</h1>
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col  p-2 ">
+                    <a class="link" href="https://usebasin.com" target="_blank">
+                        <img class="logo mb-5" src="img/servicios/basin.svg" alt="logo basin" style="height:2rem ;">
+                    </a>
+                    <p>
+                        Un backend de formulario potente y fácil de
+                        configurar para diseñadores y desarrolladores
+                    </p>
+                </div>
+                <div class="col  p-2 ">
+                    <a class="link" href="https://shipable.io" target="_blank"><img class="logo mb-5"
+                            src="img/servicios/shipable.svg" alt="logo shipable" style="height:2rem ;">
+                    </a>
+                    <p>
+                        Colaboraciones cortas y enfocadas de diseño y
+                        crecimiento para fundadores de tecnología de inicio.
+                    </p>
+                </div>
+                <div class="col  p-2 ">
+                    <img class="logo mb-5" src="img/servicios/postpal.svg" alt="logo postpal" style="height:2rem ;">
+                    <p>
+                        Una plataforma de publicación de contenido
+                        amigable para las personas que se integra con cualquier pila tecnológica.
+                    </p>
+                    <p class="text-primary"> en desarrollo </p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col p-2 ">
+                    <img class="logo mb-5" src="img/servicios/kybercore.svg" alt="logo kybercore" style="height:2rem ;">
+                    <p>
+                        Sistemas de chasis plug and play de siguiente
+                        nivel para construcciones personalizadas de sables de luz de bricolaje.
+                    </p>
+                    <p class="text-primary "> creación de prototipos</p>
+                </div>
+                <div class="col p-2 ">
+                    <img class="logo mb-5" src="img/servicios/houston.svg" alt="logo houston" style="height:2rem ;">
+                    <p>
+                        Herramientas simples de retroalimentación y
+                        compromiso que ayudan a los equipos a enviar productos ganadores.
+                    </p>
+                    <p class="text-primary"> idea validadora</p>
+                </div>
+                <div class="col p-2 ">
+                    <img class="logo mb-5" src="img/servicios/nanobrand.svg" alt="logo nanobrand" style="height:2rem ;">
+                    <p>
+                        Logotipos creados por humanos y activos de marca
+                        para nuevas empresas y proyectos independientes de hackers.
+                    </p>
+                    <p class="text-white"> idea validadora</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-3 p-2 mx-auto">
+                    <img class="logo mb-5" src="img/servicios/dovetail.svg" alt="logo dovetail" style="height:2rem ;">
+                    <p>
+                        Una solución de gestión de espacios y miembros
+                        para comunidades de coworking.
+                    </p>
+                    <p class="text-primary">adquirido en 2017</p>
+                </div>
+            </div>
+            <div class="col p-2">
+                <h2>
+                    ¿Interesado en colaborar conmigo?
+                </h2>
+                <h3>
+                    Siempre estoy abierta a discutir el trabajo de diseño
+                    de productos o las oportunidades de asociación.
+                </h3>
+            </div>
+        </div>
+    </section>
+    <!-- Pie de Página -->
+    <footer>
+        <div class="container p-2 bg-dark border rounded-bottom rounded-4">
+            <div class="row">
+                <div class="col"><span class="text-white">Copyright&nbsp;© Olivia Salazar Calogeropulos
+                        2022-2023</span></div>
+                <div class="col-md-4">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item"><a href="https://www.facebook.com/" target="_blank"><i
+                                    class="bi bi-facebook text-white" style="font-size:1em"></i></a></li>
+                        <li class="list-group-item"><a href="https://twitter.com/?lang=es" target="_blank"><i
+                                    class="bi bi-twitter text-white" style="font-size:1em"></i></a></li>
+                        <li class="list-group-item"><a href="https://www.instagram.com/" target="_blank"><i
+                                    class="bi bi-instagram text-white" style="font-size:1em"></i></a></li>
+                        <li class="list-group-item">
+                            <!-- Boton que abre el Login -->
+                            <i data-bs-toggle="modal" data-bs-target="#loginModal" class="bi bi-person-lock text-white"
+                                style="font-size:1em"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item text-white"><a href="#">Politica de privacidad</a></li>
+                        <li class="list-inline-item text-white"><a href="#">Termimos de Uso</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/Portfolio FrontEnd/node_modules/@popperjs/core/dist/umd/popper-lite.min.js"
+        crossorigin="anonymous"></script>
+    <script src="/Portfolio FrontEnd/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
